@@ -1,0 +1,58 @@
+{
+	"entities":{
+		"trees":{
+			"acacia_tree":{
+				"small_acacia_stump":{
+					"display_name":"Small Acacia Tree Stump",
+					"description":"It had its roots here, and it would die here, and so it happened"
+				},
+				"large_acacia_stump":{
+					"display_name":"Large Acacia Tree Stump",
+					"description":"In memoriam of the tree that has fallen here"
+				}
+			},
+			"juniper_tree":{
+				"small_juniper_stump":{
+					"display_name":"Small Juniper Tree Stump",
+					"description":"Just a stumpy little stump."
+				},
+				"medium_juniper_stump":{
+					"display_name":"Medium Juniper Tree Stump",
+					"description":"The remains of an once strong and tall tree."
+				},
+				"large_juniper_stump":{
+					"display_name":"Large Juniper Tree Stump",
+					"description":"It withstood mother nature for many cycles (and the axe for two hours)"
+				}
+			},
+			"oak_tree":{
+				"small_oak_stump":{
+					"display_name":"Small Oak Tree Stump",
+					"description":"The remains of a young oak tree."
+				},
+				"medium_oak_stump":{
+					"display_name":"Medium Oak Tree Stump",
+					"description":"The entlings are not going to be happy with this one"
+				},
+				"large_oak_stump":{
+					"display_name":"Large Oak Tree Stump",
+					"description":"... it's dead now."
+				}
+			},
+			"pine_tree":{
+				"small_pine_stump":{
+					"display_name":"Small Pine Tree Stump",
+					"description":"It could've told many things, now we read it from its rings."
+				},
+				"medium_pine_stump":{
+					"display_name":"Medium Pine Tree Stump",
+					"description":"It's prime of life was a long time ago."
+				},
+				"large_pine_stump":{
+					"display_name":"Large Pine Tree Stump",
+					"description":"To become a mighty tree, so you can end as a stump"
+				}
+			}
+		}
+	}
+}

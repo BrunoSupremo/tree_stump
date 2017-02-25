@@ -1,0 +1,44 @@
+{
+	"info" : {
+		"name" : "tree_stump", 
+		"version" : 3
+	},
+	"default_locale":"en",
+	"aliases" : {
+		"trees:acacia:small:stump":"file(entities/trees/acacia_stump/small_acacia_stump.json)",
+		"trees:acacia:large:stump":"file(entities/trees/acacia_stump/large_acacia_stump.json)",
+
+		"trees:juniper:small:stump":"file(entities/trees/juniper_stump/small_juniper_stump.json)",
+		"trees:juniper:medium:stump":"file(entities/trees/juniper_stump/medium_juniper_stump.json)",
+		"trees:juniper:large:stump":"file(entities/trees/juniper_stump/large_juniper_stump.json)",
+
+		"trees:oak:small:stump":"file(entities/trees/oak_stump/small_oak_stump.json)",
+		"trees:oak:medium:stump":"file(entities/trees/oak_stump/medium_oak_stump.json)",
+		"trees:oak:large:stump":"file(entities/trees/oak_stump/large_oak_stump.json)",
+
+		"trees:pine:small:stump":"file(entities/trees/pine_stump/small_pine_stump.json)",
+		"trees:pine:medium:stump":"file(entities/trees/pine_stump/medium_pine_stump.json)",
+		"trees:pine:large:stump":"file(entities/trees/pine_stump/large_pine_stump.json)"
+	}, 
+	"mixintos" : {
+		"stonehearth:mixins:tree":"file(components/add_stump.json)",
+
+		"stonehearth:trees:acacia:small":"file(entities/trees/acacia_tree/small_acacia_tree.json)",
+		"stonehearth:trees:acacia:large":"file(entities/trees/acacia_tree/large_acacia_tree.json)",
+
+		"stonehearth:trees:juniper:small":"file(entities/trees/juniper_tree/small_juniper_tree.json)",
+		"stonehearth:trees:juniper:medium":"file(entities/trees/juniper_tree/medium_juniper_tree.json)",
+		"stonehearth:trees:juniper:large":"file(entities/trees/juniper_tree/large_juniper_tree.json)",
+
+		"stonehearth:trees:oak:small":"file(entities/trees/oak_tree/small_oak_tree.json)",
+		"stonehearth:trees:oak:medium":"file(entities/trees/oak_tree/medium_oak_tree.json)",
+		"stonehearth:trees:oak:large":"file(entities/trees/oak_tree/large_oak_tree.json)",
+
+		"stonehearth:trees:pine:small":"file(entities/trees/pine_tree/small_pine_tree.json)",
+		"stonehearth:trees:pine:medium":"file(entities/trees/pine_tree/medium_pine_tree.json)",
+		"stonehearth:trees:pine:large":"file(entities/trees/pine_tree/large_pine_tree.json)"
+	},
+	"components": {
+		"add_stump":"file(components/add_stump.lua)"
+	}
+}
