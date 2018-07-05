@@ -38,8 +38,7 @@
 	},
 	"entity_data": {
 		"stonehearth:catalog": {
-			"description": "i18n(tree_stump:entities.trees.pine_tree.medium_pine_stump.description)",
-			"display_name": "i18n(tree_stump:entities.trees.pine_tree.medium_pine_stump.display_name)"
+			"display_name": "i18n(tree_stump:entities.trees.stump)"
 		}
 	}
 }

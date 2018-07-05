@@ -37,8 +37,7 @@
 	},
 	"entity_data": {
 		"stonehearth:catalog": {
-			"display_name": "i18n(tree_stump:entities.trees.oak_tree.large_oak_stump.display_name)",
-			"description": "i18n(tree_stump:entities.trees.oak_tree.large_oak_stump.description)"
+			"display_name": "i18n(tree_stump:entities.trees.stump)"
 		}
 	}
 }

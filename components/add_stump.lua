@@ -20,7 +20,6 @@ end
 function StumpComponent:add_stump()
    local location = radiant.entities.get_world_grid_location(self._entity)
    if not location then
-      --destroy???-------------------------
       return
    end
    
@@ -35,7 +34,7 @@ function StumpComponent:add_stump()
    radiant.terrain.place_entity_at_exact_location(the_stump, location)
 
    --turn it to correct rotation
-   local rotation = self._entity:get_component('mob'):get_facing() +180 % 360 --spin 180
+   local rotation = self._entity:get_component('mob'):get_facing()
    radiant.entities.turn_to(the_stump, rotation)
 end
 
