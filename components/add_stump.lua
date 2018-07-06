@@ -36,6 +36,8 @@ function StumpComponent:add_stump()
    --turn it to correct rotation
    local rotation = self._entity:get_component('mob'):get_facing()
    radiant.entities.turn_to(the_stump, rotation)
+
+   the_stump:remove_component("tree_stump:add_stump")
 end
 
 return StumpComponent
