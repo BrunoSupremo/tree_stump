@@ -16,29 +16,30 @@
 			"resource": "stonehearth:resources:wood:acacia_log"
 		},
 		"mob": {
-			"model_origin": {"x": -0.5, "y": 0, "z": 0.5 },
-			"region_origin": {"x": -0.5, "y": 0, "z": 0.5 }
+			"model_origin": {"x": 1, "y": 0, "z":-1 },
+			"region_origin": {"x": 0.5, "y": 0, "z": 0.5 }
 		},
 		"destination": {
 			"region": [
 				{
-					"min": {"x": -2, "y": 0, "z": -2 },
-					"max": {"x": 2, "y": 1, "z": 2 }
+					"min": {"x": -2, "y": 0, "z": 0 },
+					"max": {"x": 1, "y": 1, "z": 3 }
 				}
 			]
 		},
 		"region_collision_shape": {
 			"region": [
 				{
-					"min": {"x": -2, "y": 0, "z": -2 },
-					"max": {"x": 2, "y": 2, "z": 2 }
+					"min": {"x": -2, "y": 0, "z": 0 },
+					"max": {"x": 1, "y": 2, "z": 3 }
 				}
 			]
 		}
 	},
 	"entity_data": {
 		"stonehearth:catalog": {
-			"display_name": "i18n(tree_stump:entities.trees.stump)"
+			"display_name": "i18n(tree_stump:entities.trees.stump)",
+			"description": "i18n(tree_stump:entities.trees.stump_description)"
 		}
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"entities": {
 		"trees": {
-			"stump": "Toco de Árvore"
+			"stump": "Toco de Árvore",
+			"stump_description": "Não é mais uma árvore"
 		}
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"entities": {
 		"trees": {
-			"stump": "Tree Stump"
+			"stump": "Tree Stump",
+			"stump_description": "Not a tree anymore"
 		}
 	}
 }

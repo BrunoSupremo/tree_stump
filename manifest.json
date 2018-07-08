@@ -10,6 +10,9 @@
 		"trees:acacia:small:stump":"file(entities/trees/acacia_stump/small_acacia_stump.json)",
 		"trees:acacia:large:stump":"file(entities/trees/acacia_stump/large_acacia_stump.json)",
 
+		"trees:cactus:small:stump":"file(entities/trees/cactus_stump/small_cactus_stump.json)",
+		"trees:cactus:large:stump":"file(entities/trees/cactus_stump/large_cactus_stump.json)",
+
 		"trees:juniper:small:stump":	"file(entities/trees/juniper_stump/small_juniper_stump.json)",
 		"trees:juniper:medium:stump":	"file(entities/trees/juniper_stump/medium_juniper_stump.json)",
 		"trees:juniper:large:stump":	"file(entities/trees/juniper_stump/large_juniper_stump.json)",
@@ -35,6 +38,9 @@
 
 		"stonehearth:trees:acacia:small":"file(entities/trees/acacia_tree/small_acacia_tree.json)",
 		"stonehearth:trees:acacia:large":"file(entities/trees/acacia_tree/large_acacia_tree.json)",
+
+		"stonehearth:trees:cactus:small":"file(entities/trees/cactus_tree/small_cactus_tree.json)",
+		"stonehearth:trees:cactus:large":"file(entities/trees/cactus_tree/large_cactus_tree.json)",
 
 		"stonehearth:trees:juniper:small":	"file(entities/trees/juniper_tree/small_juniper_tree.json)",
 		"stonehearth:trees:juniper:medium":	"file(entities/trees/juniper_tree/medium_juniper_tree.json)",
