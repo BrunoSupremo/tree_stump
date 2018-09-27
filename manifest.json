@@ -5,6 +5,7 @@
 		"version" : 3,
 		"steam_file_id" : "1432254757"
 	},
+	"author": "BrunoSupremo",
 	"default_locale":"en",
 	"aliases" : {
 		"trees:acacia:small:stump":"file(entities/trees/acacia_stump/small_acacia_stump.json)",
