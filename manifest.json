@@ -5,6 +5,7 @@
 		"version" : 3,
 		"steam_file_id" : "1432254757"
 	},
+	"server_init_script": "file(server)",
 	"default_locale":"en",
 	"aliases" : {
 		"trees:acacia:small:stump":"file(entities/trees/acacia_stump/small_acacia_stump.json)",
@@ -79,7 +80,7 @@
 		"archipelago_biome:trees:dranden:small":	"file(entities/trees/dranden)",
 		"archipelago_biome:trees:palm:large":		"file(entities/trees/palm_tree/large_palm_tree)",
 		"archipelago_biome:trees:palm:small":		"file(entities/trees/palm_tree/small_palm_tree)",
-		"archipelago_biome:trees:palm:sapling":		"file(entities/trees/palm_tree/sapling_palm_tree)",
+		"archipelago_biome:trees:palm:sapling":		"file(entities/trees/palm_tree/small_palm_tree)",
 		"archipelago_biome:trees:papaya":			"file(entities/trees/papaya)",
 		"archipelago_biome:trees:smalea:small":		"file(entities/trees/smalea)"
 	},
