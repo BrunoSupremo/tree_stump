@@ -1,6 +1,11 @@
 local StumpComponent = class()
 
 function StumpComponent:activate()
+	for _, maybe_stump in ipairs(radiant.util.split_string(self._entity:get_uri(), ":")) do
+		if maybe_stump=="stump" then
+			return
+		end
+	end
 	self._stump_data = radiant.entities.get_entity_data(self._entity, 'tree_stump:stump_data') or
 	radiant.entities.get_entity_data(self._entity, 'stonehearth_ace:stump_data')
 	if self._stump_data then
