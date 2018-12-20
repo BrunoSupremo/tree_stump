@@ -32,7 +32,11 @@
 		"trees:palm:large:stump":"file(entities/trees/palm_tree/large_palm_tree/large_palm_stump.json)",
 		"trees:palm:small:stump":"file(entities/trees/palm_tree/small_palm_tree/small_palm_stump.json)",
 		"trees:papaya:stump":"file(entities/trees/papaya/papaya_stump.json)",
-		"trees:smalea:small:stump":"file(entities/trees/smalea/smalea_stump.json)"
+		"trees:smalea:small:stump":"file(entities/trees/smalea/smalea_stump.json)",
+
+		"trees:bogger:small:stump":	"file(entities/trees/bogger/stump.json)",
+		"trees:cypress:medium:stump":	"file(entities/trees/cypress/cypress_medium_stump.json)",
+		"trees:cypress:large:stump":	"file(entities/trees/cypress/cypress_large_stump.json)"
 	}, 
 	"mixintos" : {
 		"stonehearth:mixins:tree":"file(components/add_stump.json)",
@@ -82,7 +86,14 @@
 		"archipelago_biome:trees:palm:small":		"file(entities/trees/palm_tree/small_palm_tree)",
 		"archipelago_biome:trees:palm:sapling":		"file(entities/trees/palm_tree/small_palm_tree)",
 		"archipelago_biome:trees:papaya":			"file(entities/trees/papaya)",
-		"archipelago_biome:trees:smalea:small":		"file(entities/trees/smalea)"
+		"archipelago_biome:trees:smalea:small":		"file(entities/trees/smalea)",
+
+		"swamp_goblins:trees:dead:small":	"file(entities/trees/oak_tree/small_oak_tree.json)",
+		"swamp_goblins:trees:dead:medium":	"file(entities/trees/oak_tree/medium_oak_tree.json)",
+		"swamp_goblins:trees:dead:large":	"file(entities/trees/oak_tree/large_oak_tree.json)",
+		"swamp_goblins:trees:bogger:small":"file(entities/trees/bogger)",
+		"swamp_goblins:trees:cypress:medium":	"file(entities/trees/cypress/cypress_medium.json)",
+		"swamp_goblins:trees:cypress:large":	"file(entities/trees/cypress/cypress_large.json)"
 	},
 	"components": {
 		"add_stump":"file(components/add_stump.lua)"
