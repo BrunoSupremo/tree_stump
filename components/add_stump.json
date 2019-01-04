@@ -3,7 +3,7 @@
 		"tree_stump:add_stump":{}
 	},
 	"entity_data": {
-		"tree_stump:stump_data": {
+		"stonehearth:stump_data": {
 			"stump_alias": "tree_stump:trees:juniper:medium:stump"
 		}
 	}

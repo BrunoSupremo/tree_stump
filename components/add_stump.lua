@@ -3,11 +3,11 @@ local StumpComponent = class()
 function StumpComponent:activate()
 	for _, maybe_stump in ipairs(radiant.util.split_string(self._entity:get_uri(), ":")) do
 		if maybe_stump=="stump" then
+			--entity is a stump, so do not run the component on him
 			return
 		end
 	end
-	self._stump_data = radiant.entities.get_entity_data(self._entity, 'tree_stump:stump_data') or
-	radiant.entities.get_entity_data(self._entity, 'stonehearth_ace:stump_data')
+	self._stump_data = radiant.entities.get_entity_data(self._entity, 'stonehearth:stump_data')
 	if self._stump_data then
 		self._on_harvest_listener = radiant.events.listen(self._entity, 'stonehearth:kill_event', function()
 			self:add_stump()
