@@ -24,20 +24,17 @@
 
 		"trees:pine:small:stump":	"file(entities/trees/pine_stump/small_pine_stump.json)",
 		"trees:pine:medium:stump":	"file(entities/trees/pine_stump/medium_pine_stump.json)",
-		"trees:pine:large:stump":	"file(entities/trees/pine_stump/large_pine_stump.json)",
-
-		"trees:bend_palm:large:stump":"file(entities/trees/bend_palm_tree/large_bend_palm_tree/large_bend_palm_stump.json)",
-		"trees:bend_palm:small:stump":"file(entities/trees/bend_palm_tree/small_bend_palm_tree/small_bend_palm_stump.json)",
-		"trees:dranden:small:stump":"file(entities/trees/dranden/dranden_stump.json)",
-		"trees:palm:large:stump":"file(entities/trees/palm_tree/large_palm_tree/large_palm_stump.json)",
-		"trees:palm:small:stump":"file(entities/trees/palm_tree/small_palm_tree/small_palm_stump.json)",
-		"trees:papaya:stump":"file(entities/trees/papaya/papaya_stump.json)",
-		"trees:smalea:small:stump":"file(entities/trees/smalea/smalea_stump.json)",
-
-		"trees:bogger:small:stump":	"file(entities/trees/bogger/stump.json)",
-		"trees:cypress:medium:stump":	"file(entities/trees/cypress/cypress_medium_stump.json)",
-		"trees:cypress:large:stump":	"file(entities/trees/cypress/cypress_large_stump.json)"
-	}, 
+		"trees:pine:large:stump":	"file(entities/trees/pine_stump/large_pine_stump.json)"
+	},
+	"deprecated_aliases": {
+		"trees:bend_palm:large:stump":	"file(entities/trees/juniper_stump/medium_juniper_stump.json)",
+		"trees:bend_palm:small:stump":	"file(entities/trees/juniper_stump/medium_juniper_stump.json)",
+		"trees:dranden:small:stump":	"file(entities/trees/juniper_stump/medium_juniper_stump.json)",
+		"trees:palm:large:stump":		"file(entities/trees/juniper_stump/medium_juniper_stump.json)",
+		"trees:palm:small:stump":		"file(entities/trees/juniper_stump/medium_juniper_stump.json)",
+		"trees:papaya:stump":			"file(entities/trees/juniper_stump/medium_juniper_stump.json)",
+		"trees:smalea:small:stump":		"file(entities/trees/juniper_stump/medium_juniper_stump.json)"
+	},
 	"mixintos" : {
 		"stonehearth:mixins:tree":"file(components/add_stump.json)",
 
@@ -77,23 +74,7 @@
 
 		"stonehearth:trees:snowy:pine:small":	"file(entities/trees/pine_tree/small_pine_tree.json)",
 		"stonehearth:trees:snowy:pine:medium":	"file(entities/trees/pine_tree/medium_pine_tree.json)",
-		"stonehearth:trees:snowy:pine:large":	"file(entities/trees/pine_tree/large_pine_tree.json)",
-
-		"archipelago_biome:trees:bend_palm:large":	"file(entities/trees/bend_palm_tree/large_bend_palm_tree)",
-		"archipelago_biome:trees:bend_palm:small":	"file(entities/trees/bend_palm_tree/small_bend_palm_tree)",
-		"archipelago_biome:trees:dranden:small":	"file(entities/trees/dranden)",
-		"archipelago_biome:trees:palm:large":		"file(entities/trees/palm_tree/large_palm_tree)",
-		"archipelago_biome:trees:palm:small":		"file(entities/trees/palm_tree/small_palm_tree)",
-		"archipelago_biome:trees:palm:sapling":		"file(entities/trees/palm_tree/small_palm_tree)",
-		"archipelago_biome:trees:papaya":			"file(entities/trees/papaya)",
-		"archipelago_biome:trees:smalea:small":		"file(entities/trees/smalea)",
-
-		"swamp_goblins:trees:dead:small":	"file(entities/trees/oak_tree/small_oak_tree.json)",
-		"swamp_goblins:trees:dead:medium":	"file(entities/trees/oak_tree/medium_oak_tree.json)",
-		"swamp_goblins:trees:dead:large":	"file(entities/trees/oak_tree/large_oak_tree.json)",
-		"swamp_goblins:trees:bogger:small":"file(entities/trees/bogger)",
-		"swamp_goblins:trees:cypress:medium":	"file(entities/trees/cypress/cypress_medium.json)",
-		"swamp_goblins:trees:cypress:large":	"file(entities/trees/cypress/cypress_large.json)"
+		"stonehearth:trees:snowy:pine:large":	"file(entities/trees/pine_tree/large_pine_tree.json)"
 	},
 	"components": {
 		"add_stump":"file(components/add_stump.lua)"

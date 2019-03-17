@@ -1,4 +1,5 @@
 tree_stump = {}
+print("Tree Stump Mod version 19.3.17")
 
 function tree_stump:_on_required_loaded()
 	local ace_add_stump = radiant.mods.require('stonehearth_ace.components.stump.stump_component')
