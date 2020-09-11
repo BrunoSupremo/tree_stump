@@ -1,5 +1,5 @@
 tree_stump = {}
-print("Tree Stump Mod version 19.3.17")
+print("Tree Stump Mod version 20.9.10")
 
 function tree_stump:_on_required_loaded()
 	local my_add_stump = radiant.mods.require('tree_stump.components.add_stump')
